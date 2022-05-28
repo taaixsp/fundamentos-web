@@ -10,9 +10,19 @@
 </head>
 
 <body>
+
+    <ul id="menu">
+        <li>
+            <a href="index.html"> Home </a></li>
+        <li>
+            <a href="contact.html"> Contact </a></li>      
+            </ul>
+
+            
     <h1 class="center">Contact me!</h1>
     <br>
     <h2 class="center">You can try to reach me on my social media:</h2>
+    <div class="container">
     <div class="container">
 
         
@@ -37,19 +47,21 @@
                 class="media-object  img-responsive img-thumbnail"
                 hspace="5"></a>
     </div>
+</div>
     <br>
     <br>
     <br>
 
-    <h3>OR you can email me!</h3>
+    <h3 class="center">OR you can email me!</h3>
+    <div class="container">
     <form>
         <label for="name">Name:</label><br>
-        <input type="text" id="name">
-        <br>
+        <input type="text" id="name" onkeyup="validName()">
+        <div id="txtName"></div>
         <br>
         <label for="email">Email:</label><br>
-        <input type="email" id="email">
-        <br>
+        <input type="email" id="email" onkeyup="validEmail()">
+        <div id="txtEmail"></div>
         <br>
         <label for="subject">Tell me your secrets, problems, existencial questions:</label><br>
         <textarea name="subject" id="subject" cols="60" rows="10"></textarea>
@@ -57,8 +69,11 @@
         <br>
         <a href="thanku.html">
             <input type="button" value="Send it!">
+        </div>
         </a>
     </form>
+
+    <script src="assets/javascript/script.js"></script>
 </body>
 
 </html>
