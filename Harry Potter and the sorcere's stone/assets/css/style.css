@@ -2,3 +2,44 @@
 .center {
     text-align:center;
 }
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+/*Estilos da página contact.html Harry Potter*/
+#menu li{
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: blue;
+}
+
+#menu li a:hover{
+    color: blueviolet;
+}
+
+#color{
+    color: #ffffff;
+    background-color: #1e3799;
+}
+
